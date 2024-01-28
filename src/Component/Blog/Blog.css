@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* =====================================================================================
+                                      Blog css start
+========================================================================================*/
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.blog {
+  overflow: hidden;
+}
+
+.blog__wraper {
+  padding-top: 200px;
+  padding-left: 130px;
+}
+
+.blog__heading {
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 76px;
+  font-weight: 700;
+  letter-spacing: -1.14px;
+}
+
+.blog__detail {
+  opacity: 0.8;
+  padding-top: 4px;
+  color: #b070ff;
+  font-family: var(--HankenGrotesk);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* =====================================================================================
+                                      Blog css End
+========================================================================================*/

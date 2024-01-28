@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* ============================================================================
+                                  Lunar Card css start
+===============================================================================*/
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.lunarCard {
+  background-color: #faf7fd;
+}
+
+.lunarCard__wraper {
+  display: flex;
+  align-items: center;
+  row-gap: 169px;
+  column-gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+}
+
+.user_card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 160px;
+  padding-bottom: 40px;
+  width: 364px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: #faf6ff;
+  box-shadow: 0px 30px 114px 0px rgba(124, 20, 253, 0.14);
+}
+
+.user {
+  left: 93px;
+  top: -86px;
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  border: 8px solid #b070ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card__title {
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.card__post {
+  color: #000;
+
+  font-family: var(--HankenGrotesk);
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+
+.card__address {
+  color: #b070ff;
+  opacity: 0.8;
+  font-family: var(--HankenGrotesk);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.card__info {
+  color: #b070ff;
+  opacity: 0.8;
+  font-family: var(--HankenGrotesk);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 34px;
+}
+
+.card__btn {
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 12px 62px;
+  border-radius: 15px;
+  background: #b070ff;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.card__btn:hover {
+  transform: translateY(10%);
+  background-color: #9540fc;
+  -webkit-transform: translateY(10%);
+  -moz-transform: translateY(10%);
+  -ms-transform: translateY(10%);
+  -o-transform: translateY(10%);
+}
+.right__arrow__icon {
+  vertical-align: middle;
+  padding-left: 10px;
+}
+/* ============================================================================
+                                  Lunar Card css End
+===============================================================================*/
